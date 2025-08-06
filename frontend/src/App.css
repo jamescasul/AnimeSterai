@@ -1,38 +1,113 @@
+/* AnimeKAI Custom Styles */
 .App {
-    text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e293b 0%, #1e3a8a 50%, #1e293b 100%);
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+::-webkit-scrollbar-track {
+  background: #1e293b;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+::-webkit-scrollbar-thumb {
+  background: #f97316;
+  border-radius: 4px;
 }
 
-.App-link {
-    color: #61dafb;
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Smooth animations */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Anime card hover effects */
+.anime-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.anime-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Backdrop blur effect */
+.backdrop-blur {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Custom button animations */
+.btn-orange {
+  background: linear-gradient(45deg, #f97316, #ea580c);
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background: linear-gradient(45deg, #ea580c, #dc2626);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(249, 115, 22, 0.3);
+}
+
+/* Loading animation */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(45deg, #f97316, #10b981, #eab308);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Video player styles */
+.video-player {
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(20px);
+}
+
+/* Social media buttons */
+.social-btn {
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
