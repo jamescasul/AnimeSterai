@@ -24,7 +24,7 @@ const mockAnimeData = [
     thumbnail: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxhbmltZXxlbnwwfHx8fDE3NTQ0NzkwNTJ8MA&ixlib=rb-4.1.0&q=85",
     banner: "https://images.unsplash.com/photo-1519638399535-1b036603ac77?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxhbmltZXxlbnwwfHx8fDE3NTQ0NzkwNTJ8MA&ixlib=rb-4.1.0&q=85",
     status: "Completed",
-    videoId: "dQw4w9WgXcQ" // YouTube demo video
+    videoId: "LHtdKWJdif4" // Attack on Titan Season 4 Trailer
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const mockAnimeData = [
     thumbnail: "https://images.pexels.com/photos/2295744/pexels-photo-2295744.jpeg",
     banner: "https://images.pexels.com/photos/33322030/pexels-photo-33322030.jpeg",
     status: "Ongoing",
-    videoId: "VQzLzJe_m70"
+    videoId: "VQzLzJe_m70" // Demon Slayer Trailer
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const mockAnimeData = [
     thumbnail: "https://images.unsplash.com/photo-1705831156575-a5294d295a31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxtYW5nYXxlbnwwfHx8fDE3NTQ0NzkwNTd8MA&ixlib=rb-4.1.0&q=85",
     banner: "https://images.unsplash.com/photo-1601850494422-3cf14624b0b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxhbmltZXxlbnwwfHx8fDE3NTQ0NzkwNTJ8MA&ixlib=rb-4.1.0&q=85",
     status: "Ongoing",
-    videoId: "GQfBJ4xX2YE"
+    videoId: "Ades3pQbeh8" // One Piece Opening
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const mockAnimeData = [
     thumbnail: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHw0fHxhbmltZXxlbnwwfHx8fDE3NTQ0NzkwNTJ8MA&ixlib=rb-4.1.0&q=85",
     banner: "https://images.pexels.com/photos/1921336/pexels-photo-1921336.jpeg",
     status: "Completed",
-    videoId: "1dy2zPPrKD0"
+    videoId: "1dy2zPPrKD0" // Naruto Opening
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ const mockAnimeData = [
     thumbnail: "https://images.unsplash.com/photo-1531501410720-c8d437636169?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxtYW5nYXxlbnwwfHx8fDE3NTQ0NzkwNTd8MA&ixlib=rb-4.1.0&q=85",
     banner: "https://images.unsplash.com/photo-1709675577966-6231e5a2ac43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxtYW5nYXxlbnwwfHx8fDE3NTQ0NzkwNTd8MA&ixlib=rb-4.1.0&q=85",
     status: "Ongoing",
-    videoId: "D5fYOnwYkj4"
+    videoId: "D5fYOnwYkj4" // My Hero Academia Opening
   },
   {
     id: 6,
@@ -89,7 +89,7 @@ const mockAnimeData = [
     thumbnail: "https://images.pexels.com/photos/1454906/pexels-photo-1454906.jpeg",
     banner: "https://images.unsplash.com/photo-1519638399535-1b036603ac77?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxhbmltZXxlbnwwfHx8fDE3NTQ0NzkwNTJ8MA&ixlib=rb-4.1.0&q=85",
     status: "Ongoing",
-    videoId: "4A_X-Dvl0ws"
+    videoId: "4A_X-Dvl0ws" // Jujutsu Kaisen Opening
   }
 ];
 
